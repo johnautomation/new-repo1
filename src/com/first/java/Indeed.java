@@ -9,7 +9,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 public class Indeed {
 
 	public static void main(String[] args) throws Exception {
-		System.setProperty("webdriver.chrome.driver", "C:\\Users\\johnq\\Desktop\\lib\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "lib/chromedriver");
 		WebDriver driver = new ChromeDriver();
 		driver.manage().timeouts().implicitlyWait(10,TimeUnit.SECONDS);
 		driver.manage().window().maximize();
