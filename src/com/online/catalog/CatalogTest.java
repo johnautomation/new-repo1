@@ -48,6 +48,7 @@ public class CatalogTest {
 		driver.findElement(By.name("confirmation")).sendKeys("mesfin");
 		driver.findElement(By.id("tdb4")).click();
 		System.out.println("The Title is===========" + driver.getTitle());
+		//Validation point
 		Assert.assertEquals("iBusiness", driver.getTitle());
 		driver.findElement(By.id("tdb5")).click();
 		
